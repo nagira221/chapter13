@@ -22,7 +22,7 @@ public class Hero {
         return this.hp;
     }
     public void setHp(int hp) {
-        this.name =name;
+        this.hp = hp;
     }
 
     public Hero( int hp,String name){
@@ -37,8 +37,7 @@ public class Hero {
         System.out.println("GAME OVERです。");
     }
     void sleep() {
-        this.hp = 100;
-
+        System.out.println("宿屋で回復中...");
     }
     public void attack(Matango m) {
         System.out.println(this.name + "の攻撃！");
